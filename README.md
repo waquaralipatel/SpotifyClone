@@ -39,7 +39,7 @@ Mobile version of the **user library**, showing song list and options.
 
 ### 5. **Now Playing State**  
 Music currently playing with **progress bar and timer** updates.  
-![Now Playing](assets/screenshots/screenshot5.png)  
+![Now Playing](assets/screenshots/screenshot2.png)  
 
 ---
 
