@@ -26,7 +26,10 @@ async function songsReturn() {
     for (let index = 0; index < as.length; index++) {
         const element = as[index];
         if (element.href.endsWith(".mp3")) {
-            songs.push(element.href.split("/songs/")[1])
+             let href = decodeURIComponent(element.getAttribute("href")).replaceAll("\\", "/");
+            // Get only the file name
+            let songName = href.split("/songs/")[1];
+            songs.push(songName);
         }
     }
     return songs;
